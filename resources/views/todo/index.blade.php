@@ -2,7 +2,7 @@
 
 @extends('layout')
 
-@section('title','List Category')
+@section('title','List Todo')
 
 @section('content')
 <h2>List Category</h2>
