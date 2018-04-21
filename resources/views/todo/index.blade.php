@@ -6,7 +6,10 @@
 
 @section('content')
 <h2>List Category</h2>
-
+<div class="box">
+    <div class="box-header with-border">
+    <h3 class="box-title">Nama User</h3>
+    </div>
 <ul>
 <?php
 foreach($todos as $todo)
@@ -16,5 +19,11 @@ foreach($todos as $todo)
 ?>
 </ul>
 
-<a href="/todo/create">Create New Todo</a>
+    <div class="box-footer clearfix">
+    <a href="/todo/create" class="btn btn-danger btn-sm">Create New Todo</a>
+    </div>
+</div>
+
+
+
 @endsection()
